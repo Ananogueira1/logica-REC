@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dev\\Desktop\\logica2\\logica2.csproj": {}
+    "C:\\Users\\dev\\Desktop\\logica-REC-main\\logica2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dev\\Desktop\\logica2\\logica2.csproj": {
+    "C:\\Users\\dev\\Desktop\\logica-REC-main\\logica2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dev\\Desktop\\logica2\\logica2.csproj",
+        "projectUniqueName": "C:\\Users\\dev\\Desktop\\logica-REC-main\\logica2.csproj",
         "projectName": "logica2",
-        "projectPath": "C:\\Users\\dev\\Desktop\\logica2\\logica2.csproj",
+        "projectPath": "C:\\Users\\dev\\Desktop\\logica-REC-main\\logica2.csproj",
         "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dev\\Desktop\\logica2\\obj\\",
+        "outputPath": "C:\\Users\\dev\\Desktop\\logica-REC-main\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dev\\AppData\\Roaming\\NuGet\\NuGet.Config"
