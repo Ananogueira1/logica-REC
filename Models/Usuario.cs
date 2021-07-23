@@ -9,9 +9,9 @@ namespace logica2.Models
 
         public string Nome { get; set; }
         public string Email { get; set; }
-        private string Senha { get; set; }
+        public string Senha { get; set; }
 
-        private const string PATH = "DataBase/Participante.csv";
+        private const string _PATH = "DataBase/Participante.csv";
         public void CriarPastaArquivos(string _path)
         {
             string pasta = _path.Split("/")[0];
@@ -46,7 +46,7 @@ namespace logica2.Models
         {
 
             string[] linha = { PrepararLinha(u) };
-            File.AppendAllLines(PATH, linha);
+            File.AppendAllLines(_PATH, linha);
         }
 
         public string PrepararLinha(Usuario u)
@@ -59,11 +59,18 @@ namespace logica2.Models
             List<string> csv = ReadAllLinesCSV("DataBase/Participantes.csv");
             var Logado = csv.Find(
                 x =>
-                x.Split(";")[1] == email && 
-                x.Split(";")[2] == senha 
-
+                x.Split(";")[1] == email &&
+                x.Split(";")[2] == senha
 
             );
+            if (Logado != null)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

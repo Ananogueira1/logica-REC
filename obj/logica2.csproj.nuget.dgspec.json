@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dev\\Desktop\\logica-REC-main\\logica2.csproj": {}
+    "C:\\Users\\DEV\\Desktop\\logica-REC\\logica2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dev\\Desktop\\logica-REC-main\\logica2.csproj": {
+    "C:\\Users\\DEV\\Desktop\\logica-REC\\logica2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dev\\Desktop\\logica-REC-main\\logica2.csproj",
+        "projectUniqueName": "C:\\Users\\DEV\\Desktop\\logica-REC\\logica2.csproj",
         "projectName": "logica2",
-        "projectPath": "C:\\Users\\dev\\Desktop\\logica-REC-main\\logica2.csproj",
-        "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dev\\Desktop\\logica-REC-main\\obj\\",
+        "projectPath": "C:\\Users\\DEV\\Desktop\\logica-REC\\logica2.csproj",
+        "packagesPath": "C:\\Users\\DEV\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DEV\\Desktop\\logica-REC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dev\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\DEV\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
